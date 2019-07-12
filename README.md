@@ -15,10 +15,10 @@
 ## 截图
 
 ### 首页
-![](https://github.com/alterfang/gridea-theme-pan/blob/master/%E9%A6%96%E9%A1%B5.jpg)
+![](https://i.loli.net/2019/07/12/5d287c18dca8a23556.jpg)
 
 ### 内容页
-![](https://github.com/alterfang/gridea-theme-pan/blob/master/%E5%86%85%E5%AE%B9%E9%A1%B5.jpg)
+![](https://i.loli.net/2019/07/12/5d287c6ee9b2468919.jpg)
 
 ### 归档页
-![](https://github.com/alterfang/gridea-theme-pan/blob/master/%E5%86%85%E5%AE%B9%E9%A1%B5.jpg)
+![](https://i.loli.net/2019/07/12/5d287c493e00b24265.jpg)
