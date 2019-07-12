@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <%- include('./_blocks/head', { siteTitle: `${tag.name} | ${themeConfig.siteName}` }) %>
+</head>
+<body class="home blog">
+    <div id="wrapper">
+        
+<%- include('./_blocks/header') %>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+		
+		<div class="archive-box">
+			  <header class="page-header">
+				  
+				<h1 class="page-title"><%= tag.name %></h1> 
+
+</header>
+			</div>	
+ <%- include('./_blocks/index-list') %>
+
+
+
+							
+	</div><!-- site-main -->
+            
+
+
+			</div><!-- #end row-->
+													   
+			<%- include('./_blocks/pagination') %>
+													   
+		</div><!-- #end container-->
+
+		
+	 <%- include('./_blocks/footer') %>
+
+</div><!-- #end wrapper-->
+
+<%- include('./_blocks/footjs') %>
+		
+</body>
+</html>

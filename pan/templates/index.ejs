@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <%- include('./_blocks/head', { siteTitle: themeConfig.siteName }) %>
+</head>
+<body class="home blog">
+    <div id="wrapper">
+        
+<%- include('./_blocks/header') %>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+<%- include('./_blocks/index-list') %>
+											   
+	</div><!-- site-main -->
+            
+		
+
+			</div><!-- #end row-->
+														   
+			<%- include('./_blocks/pagination') %>
+									 
+		</div><!-- #end container-->
+
+		
+	 <%- include('./_blocks/footer') %>
+
+</div><!-- #end wrapper-->
+
+<%- include('./_blocks/footjs') %>
+	
+	
+														   
+</body>
+</html>

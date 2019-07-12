@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<%- include('./_blocks/head', { siteTitle: themeConfig.siteName }) %>
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+        <!-- topbar -->
+	<%- include('./_blocks/header') %>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+	<script type="text/javascript">
+      $(document).ready(function() {
+         var tags_a = $("#tags a");
+         tags_a.each(function(){
+             var x = 2;
+             var y = 0;
+             var rand = parseInt(Math.random() * (x - y + 1) + y);
+             $(this).addClass("tags"+rand);
+          });
+      })   
+   </script>					
+<!-- #post-## -->
+	
+	 
+
+
+		 <div class="w95" id="tags">
+			<% tags.forEach((tag) => { %> 
+        <a href='<%= tag.link %>'><%= tag.name %></a>
+        <% }); %>
+    </div>		 
+
+
+
+		
+		
+			</div><!-- .site-main -->
+        
+
+
+			</div><!-- #end row-->
+		</div><!-- #end container-->
+
+		
+		 <%- include('./_blocks/footer') %>
+
+</div><!-- #end wrapper-->
+
+<%- include('./_blocks/footjs') %>
+</body>
+</html>

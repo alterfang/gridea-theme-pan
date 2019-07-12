@@ -1,0 +1,26 @@
+{
+  "name": "Pan",
+  "version": "1.5",
+  "author": "文中君",
+  "repository": "https://github.com/alterfang/gridea-theme-pan/tree/master",
+  "customConfig": [
+    {
+        "name": "sy",
+        "label": "图片地址：",
+        "group": "背景图片",
+        "value": "",
+        "type": "input",
+        "note": "请填写图片地址"
+      }, 
+    
+    {
+        "name": "ga",
+        "label": "跟踪 ID",
+        "group": "谷歌统计",
+        "value": "",
+        "type": "input",
+        "note": "UA-xxxxxxxxx-x"
+      }
+
+]
+}   

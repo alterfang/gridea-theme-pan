@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+ <%- include('./_blocks/head', { siteTitle: `${post.title} | ${themeConfig.siteName}` }) %>
+ 	
+</head>
+<body class="post-template-default single single-post postid-70 single-format-standard">
+    <div id="wrapper">
+        
+	<%- include('./_blocks/header-post') %>
+
+		<div id="content" class="container">
+			<div class="row">
+	<div class="col-md-8 site-main">
+				
+<article id="post-70" class="post-70 post type-post status-publish format-standard hentry category-5 tag-10 tag-9 tag-11">
+
+	
+	                      
+		<div class="entry-content">
+			<h1 class="entry-title"><%= post.title %></h1>
+<div class="entry-meta">
+	
+	           <a href="<%= post.link %>">
+							 <i class="fa fa-paint-brush"> 
+							</i> <%= post.dateFormat %></a> 
+			
+</span>
+													 
+		</div>
+                  
+			<div class="entry-summary">
+				<p><%- post.content %></p>
+							</div>
+	<div class="vt-post-tags">
+ <% post.tags.forEach(function(tag) { %>
+				<a href="<%= tag.link %>" rel="tag"><%= tag.name %></a>	
+				 <% }); %>
+					</div>						
+<nav class="navigation3 post-navigation3" role="navigation">
+		
+		<div class="nav-links3">
+      <% if (post.prevPost && !post.hideInList) { %>
+		<div class="nav-previous3"><a href="<%= post.prevPost.link %>" rel="prev"> <%= post.prevPost.title %></a></div>
+		 <% } %>
+		 <% if (post.nextPost && !post.hideInList) { %>
+		<div class="nav-next3"><a href="<%= post.nextPost.link %>" rel="next"> <%= post.nextPost.title %></a></div>
+		<% } %>
+		</div>
+	</nav>
+		</div>
+		
+ 
+		
+</article>
+
+<div id="marlin_lite_about_widget-2" class="widget marlin_lite_about_widget">
+			<h4 class="widget-title">评论</h4>	
+
+			 <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+          <% if (commentSetting.commentPlatform === 'gitalk') { %>
+            <%- include('./_blocks/gitalk') %>
+          <% } %>
+          <% if (commentSetting.commentPlatform === 'disqus') { %>
+            <%- include('./_blocks/disqus') %>
+          <% } %>
+        <% } %>
+   
+  
+ 
+
+		</div>
+
+			</div>
+			<%- include('./_blocks/toc') %>										 
+
+ 
+       
+
+
+			</div>
+		</div>
+
+		
+		 <%- include('./_blocks/footer') %>
+
+</div>
+
+<%- include('./_blocks/footjs') %>
+		<script data-no-instant>
+    (function ($) {
+        $.extend({
+            adamsOverload: function () {
+                $('.navigation:eq(0)').remove();
+                $("").attr("rel" , "external");
+                $("a[rel='external'],a[rel='external nofollow']").attr("target","_blank");
+                $("a.vi").attr("rel" , "");
+                $.viewImage({
+                    'target'  : 'img',
+                    'exclude' : '.vsmile-icons img,.gallery img',
+                    'delay'   : 300
+                });
+                $.lately({
+                    'target' : '.commentmetadata a,.infos time,.post-list time'
+                });
+                prettyPrint();
+                
+                $('ul.links li a').each(function(){
+                    if($(this).parent().find('.bg').length==0){
+                        $(this).parent().append('<!---<div class="bg" style="background-image:url(https://c3.glgoo.top/s2/favicons?domain='+$(this).attr("href")+')"></div>--->')
+                    }
+                });
+            }
+        });
+    })(jQuery);
+    jQuery.adamsOverload();
+</script>
+
+</body>
+</html>

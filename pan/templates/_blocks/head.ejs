@@ -1,0 +1,31 @@
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<title><%= siteTitle %></title>	
+</style>
+<link rel="stylesheet" href="<%= themeConfig.domain %>/styles/main.css">
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type='text/javascript' src='<%= themeConfig.domain %>/media/scripts/jquery.js'></script>
+<script type='text/javascript' src='<%= themeConfig.domain %>/media/scripts/script.js'></script>
+<% if (site.customConfig.ga) { %>
+<script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '<%= site.customConfig.ga %>');
+</script>
+<% } %>
+<style type="text/css">
+header {
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+    background: #515865 center no-repeat;
+    font-size: 16px;
+    color: #fff;
+    background-size: cover;
+    background-image:url(<% if (site.customConfig.sy) { %>
+			<%= site.customConfig.sy %>
+			<% } %>);
+}
+		</style>

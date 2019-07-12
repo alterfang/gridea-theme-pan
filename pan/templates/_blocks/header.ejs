@@ -1,0 +1,36 @@
+		<header id="header headerimg" class="site-header" style="background-image:url(
+			<% if (site.customConfig.sy) { %>
+			<%= site.customConfig.sy %>
+			<% } %>
+			)">
+			<div class="site-branding">
+									<h1 class="site-title"><a href="<%= themeConfig.domain %>" rel="home"><%= themeConfig.siteName %></a></h1>
+										
+					<h2 class="site-description"><%- themeConfig.siteDescription %></h2>
+										
+							</div>
+			<nav id="nav-wrapper">
+				<div class="container">
+					<div class="nav-toggle">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+					</div><!-- /nav-toggle -->
+					<div class="clear"></div>
+					<ul id="" class="vtmenu">
+		 <% menus.forEach(function(menu) { %>
+     			
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+	 
+	<a  href="<%= menu.link %>"> <%= menu.name %></a></li>
+	
+    <% }); %>
+
+</ul>
+</li>		
+		
+</ul>				</div>
+			</nav><!-- #navigation -->
+        </header><!-- #masthead -->
