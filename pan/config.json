@@ -1,8 +1,8 @@
 {
   "name": "Pan",
-  "version": "1.5",
+  "version": "1.6",
   "author": "文中君",
-  "repository": "https://github.com/alterfang/gridea-theme-pan/tree/master",
+  "repository": "https://github.com/alterfang/gridea-theme-pan",
   "customConfig": [
     {
         "name": "sy",
