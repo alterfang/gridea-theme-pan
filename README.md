@@ -1,6 +1,6 @@
 # gridea-theme-pan
 示例：[Miracol.cn](https://miracol.cn/)
-请不要修改底部版权连接！谢谢！
+请不要修改底部版权链接！谢谢！
 
 ## 已有功能
 1. 图片灯箱效果
