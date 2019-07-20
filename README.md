@@ -1,5 +1,6 @@
 # gridea-theme-pan
 示例：[Miracol.cn](https://miracol.cn/)
+</br>
 请不要修改底部版权链接！谢谢！
 
 ## 已有功能
