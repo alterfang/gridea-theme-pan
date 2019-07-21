@@ -1,6 +1,6 @@
 {
   "name": "Pan",
-  "version": "1.6.1",
+  "version": "1.7",
   "author": "文中君",
   "repository": "https://github.com/alterfang/gridea-theme-pan",
   "customConfig": [
@@ -12,7 +12,110 @@
         "type": "input",
         "note": "请填写图片地址"
       }, 
-    
+      {
+        "name": "rss",
+        "label": "RSS",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "twitter",
+        "label": "Twitter",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "github",
+        "label": "Github",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "zhihu",
+        "label": "知乎",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "facebook",
+        "label": "Facebook",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "linkedin",
+        "label": "Linked in",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "linkedin",
+        "label": "Linked in",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "telegram",
+        "label": "telegram",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "douban",
+        "label": "豆瓣",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "instagram",
+        "label": "Instagram",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "qq",
+        "label": "QQ",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "weibo",
+        "label": "微博",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
+      {
+        "name": "youtube",
+        "label": "Youtube",
+        "group": "社交",
+        "value": "",
+        "type": "input",
+        "note": "链接地址"
+      },
     {
         "name": "ga",
         "label": "跟踪 ID",

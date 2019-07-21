@@ -34,4 +34,10 @@
 		
 </ul>				</div>
 			</nav><!-- #navigation -->
+						<div class="jingge">
+<% ['rss', 'twitter', 'github', 'zhihu', 'facebook','linkedin','telegram','douban','instagram','qq','weibo','youtube'].forEach((item) => { %>
+<% if (site.customConfig[item]) { %>			
+<a  href="<%= site.customConfig[item] %>" target="_blank" ><i class="iconfont icon-<%= item %>"></i></a>
+ <% } %>
+    <% }) %>
         </header><!-- #masthead -->
