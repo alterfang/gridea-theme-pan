@@ -1,0 +1,37 @@
+body {
+    background-color: #333;
+    color: #ffffff;
+}
+#content article {
+    background: #333;
+}
+article .entry-title > a, .slide-content .entry-title > a {
+    color: #ffff;
+}
+#content article .entry-summary {
+    color: #ffff;
+}
+.nav-links {
+    background: #333;
+}
+.nav-links3 {
+    background: #333;
+}
+.widget {
+    background: #333 none repeat scroll 0 0;
+}
+.page-header .page-title {
+    color: #ffff;
+}
+.page-header {
+    background: #333 none repeat scroll 0 0;
+}
+#archives #archives-tags h3 {
+    color: #ffff;
+}
+#archives #archives-tags a {
+    color: #ffff;
+}
+#archives .archives a, #archives .archives h3 {
+    color: #ffff;
+}
