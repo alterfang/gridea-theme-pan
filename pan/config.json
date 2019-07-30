@@ -13,6 +13,22 @@
         "note": "请填写图片地址"
       }, 
       {
+        "name": "haks",
+        "label": "自动开启黑暗模式时间",
+        "group": "黑暗模式",
+        "value": "",
+        "type": "input",
+        "note": "请输入24时"
+      },
+      {
+        "name": "hajs",
+        "label": "自动关闭黑暗模式时间",
+        "group": "黑暗模式",
+        "value": "",
+        "type": "input",
+        "note": "请输入24时"
+      },
+      {
         "name": "rss",
         "label": "RSS",
         "group": "社交",
@@ -47,14 +63,6 @@
       {
         "name": "facebook",
         "label": "Facebook",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "linkedin",
-        "label": "Linked in",
         "group": "社交",
         "value": "",
         "type": "input",
