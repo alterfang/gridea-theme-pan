@@ -13,6 +13,7 @@ article .entry-title > a, .slide-content .entry-title > a {
 }
 .nav-links {
     background: #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 .nav-links3 {
     background: #333;
@@ -34,4 +35,25 @@ article .entry-title > a, .slide-content .entry-title > a {
 }
 #archives .archives a, #archives .archives h3 {
     color: #ffff;
+}
+
+.author-info {
+    border-bottom: 1px solid #ffffff;
+ 
+    border-top: 1px solid #ffffff;
+
+}
+.post-index {
+    border: 1px solid rgba(0, 0, 0, 0.0001);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+ 
+}
+.posttou {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    filter: brightness(0.30);
+}
+
+#content article .song img {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    filter: brightness(0.30);
 }
