@@ -14,7 +14,7 @@
 	<div class="col-md-8 site-main" id="archives">
 					
 <!-- #post-## -->
-	<div id="archives-tags">
+	<div class="wow bounceInLeft" id="archives-tags">
         <h3>标签云</h3>
 <% site.tags.forEach(function(tag) { %>
                <a class="itags" href="<%= tag.link %>"><%= tag.name %></a>
@@ -22,13 +22,13 @@
                         </div>
 
 
-    <div id="archives-content">
+    <div class="wow bounceInRight" id="archives-content">
         <br>
 		<% let years = []; posts.forEach((item) => { const year = item.date.substring(0, 4); if (!years.includes(year)) { years.push(year); } }); %>
 
-                <div class="archive-title" id="archives-2019-06">
+                <div class="archive-title" >
 					
-            <div class="archives" data-date="2019-06">
+            <div class="archives" >
 				 <% years.forEach(function(year) { %>
                 <h3><%- year %></h3>
 					

@@ -1,8 +1,4 @@
-		<header id="header headerimg" class="site-header" style="background-image:url(
-			<% if (site.customConfig.sy) { %>
-			<%= site.customConfig.sy %>
-			<% } %>
-			)">
+		<header id="header" class="site-header" >
 			<div class="site-branding">
 									<h1 class="site-title"><a href="<%= themeConfig.domain %>" rel="home"><%= themeConfig.siteName %></a></h1>
 										
@@ -19,10 +15,10 @@
 						</div>
 					</div><!-- /nav-toggle -->
 					<div class="clear"></div>
-					<ul id="" class="vtmenu">
+					<ul class="dove">
 		 <% menus.forEach(function(menu) { %>
      			
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+<li>
 	 
 	<a  href="<%= menu.link %>"> <%= menu.name %></a></li>
 	

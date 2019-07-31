@@ -1,32 +1,88 @@
 {
   "name": "Pan",
-  "version": "1.8.2",
+  "version": "2.0",
   "author": "文中君",
-  "repository": "https://github.com/alterfang/gridea-theme-pan",
+  "repository": "",
   "customConfig": [
     {
-        "name": "sy",
-        "label": "图片地址：",
-        "group": "背景图片",
-        "value": "",
-        "type": "input",
-        "note": "请填写图片地址"
-      }, 
+      "name": "indeximg",
+      "label": "首页图片",
+      "group": "首页",
+      "value": "",
+      "type": "input",
+      "note": "请输入图片地址"
+    },
+    {
+      "name": "gxmz",
+      "label": "博主名字",
+      "group": "名片",
+      "value": "",
+      "type": "input",
+      "note": "请输入博主名字"
+    },
+    {
+      "name": "gxqm",
+      "label": "个性签名",
+      "group": "名片",
+      "value": "",
+      "type": "input",
+      "note": "请输入个性签名"
+    },
+    {
+      "name": "haks",
+      "label": "自动开启黑暗模式时间",
+      "group": "黑暗模式",
+      "value": "",
+      "type": "input",
+      "note": "请输入24时"
+    },
+    {
+      "name": "hajs",
+      "label": "自动关闭黑暗模式时间",
+      "group": "黑暗模式",
+      "value": "",
+      "type": "input",
+      "note": "请输入24时"
+    },
+    {
+      "name": "yx",
+      "label": "博主邮箱",
+      "group": "评论板块",
+      "value": "",
+      "type": "input",
+      "note": "请输入博主邮箱"
+    },
       {
-        "name": "haks",
-        "label": "自动开启黑暗模式时间",
-        "group": "黑暗模式",
+        "name": "bq",
+        "label": "表情包地址",
+        "group": "评论板块",
         "value": "",
         "type": "input",
-        "note": "请输入24时"
+        "note": "XXXXXXXXXX/alu"
+      },
+    {
+        "name": "hy",
+        "label": "叙述",
+        "group": "评论板块",
+        "value": "",
+        "type": "input",
+        "note": "欢迎评论"
       },
       {
-        "name": "hajs",
-        "label": "自动关闭黑暗模式时间",
-        "group": "黑暗模式",
+        "name": "id",
+        "label": "ID",
+        "group": "评论板块",
         "value": "",
         "type": "input",
-        "note": "请输入24时"
+        "note": "xxxxxxxxx"
+      },
+      {
+        "name": "key",
+        "label": "Key",
+        "group": "评论板块",
+        "value": "",
+        "type": "input",
+        "note": "xxxxxxxxx"
       },
       {
         "name": "rss",

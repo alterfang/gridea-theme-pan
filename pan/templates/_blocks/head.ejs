@@ -1,13 +1,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="pragma" content="no-cache">
-<meta http-equiv="cache-control" content="no-cache">
-<meta http-equiv="expires" content="0">
+<meta HTTP-EQUIV="pragma" CONTENT="no-cache"> 
+<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate"> 
+<meta HTTP-EQUIV="expires" CONTENT="0"> 
 <title><%= siteTitle %></title>	
+
 <link rel="stylesheet" href="<%= themeConfig.domain %>/styles/main.css">
 <link href="<%= themeConfig.domain %>/media/scripts/dark.css" rel="alternate stylesheet" type="text/css" title="dark">
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <script type='text/javascript' src='<%= themeConfig.domain %>/media/scripts/script.js'></script>
+<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet" />
+  <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>wow=new WOW({boxClass:'wow',animateClass:'animated',offset:0,mobile:true,live:true});wow.init();</script>
 <% if (site.customConfig.ga) { %>
 <script async src="https://www.googletagmanager.com/gtag/js?id=<%= site.customConfig.ga %>"></script>
 <script>
@@ -17,20 +23,7 @@
   gtag('config', '<%= site.customConfig.ga %>');
 </script>
 <% } %>
-<style type="text/css">
-header {
-    text-align: center;
-    padding: 120px 0px 40px 0px;
-    background: #515865 center no-repeat;
-    font-size: 16px;
-    color: #fff;
-    background-size: cover;
-    background-image:url(<% if (site.customConfig.sy) { %>
-			<%= site.customConfig.sy %>
-			<% } %>);
-}
-		</style>
-<script>
+<script type="text/javascript">
 (function(){
     if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
 <% if (site.customConfig.haks) { %>
@@ -58,3 +51,4 @@ header {
     }
 })();
 </script>
+

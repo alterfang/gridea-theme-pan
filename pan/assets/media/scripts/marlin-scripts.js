@@ -9,11 +9,11 @@
 		// Menu Navigation
         if ( $('.toggle-menu').length ) {
             $('.toggle-menu').click( function(){
-                $('#nav-wrapper .vtmenu').toggle();
+                $('#nav-wrapper .dove').toggle();
             } );
         }
         
-        $('.vtmenu .caret').click( function() {
+        $('.dove .caret').click( function() {
             var $submenu = $(this).closest('.menu-item-has-children').find(' > .sub-menu');
             
             $submenu.toggle();
@@ -26,10 +26,10 @@
             });
         });
 		
-		// Toggle vtmenu
+		// Toggle dove
 		$(".nav-toggle").on("click", function(){
 			$(this).toggleClass("active");
-			$(".vtmenu").slideToggle();
+			$(".dove").slideToggle();
 		});
 	
 		// Fitvids

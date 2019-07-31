@@ -19,21 +19,20 @@
 	
 	                      
 		<div class="entry-content">
-			<h1 class="entry-title"><%= post.title %></h1>
+			<h1 class="wow swing entry-title"><%= post.title %></h1>
 <div class="entry-meta">
-	
-	           <a href="<%= post.link %>">
-							 <i class="iconfont icon-rili"> 
-							</i> <%= post.dateFormat %></a> 
+<div class="wow bounce">
+	<i class="iconfont icon-rili"> <time class="lately-a" datetime="<%= post.date %>" itemprop="datePublished" pubdate=""><%= post.dateFormat %></time></i>
+	          </div>
 			
 </span>
 													 
 		</div>
                   
-			<div class="entry-summary song">
+			<div class="wow slideInLeft entry-summary song">
 				<p><%- post.content %></p>
 							</div>
-	<div class="vt-post-tags">
+	<div class="wow bounceInDown vt-post-tags">
  <% post.tags.forEach(function(tag) { %>
 				<a href="<%= tag.link %>" rel="tag"><%= tag.name %></a>	
 				 <% }); %>
@@ -42,30 +41,31 @@
 		
 		<div class="nav-links3">
       <% if (post.prevPost && !post.hideInList) { %>
-		<div class="nav-previous3"><a href="<%= post.prevPost.link %>" rel="prev"> <%= post.prevPost.title %></a></div>
+		<div class="wow bounceInLeft nav-previous3"><a href="<%= post.prevPost.link %>" rel="prev"> <%= post.prevPost.title %></a></div>
 		 <% } %>
 		 <% if (post.nextPost && !post.hideInList) { %>
-		<div class="nav-next3"><a href="<%= post.nextPost.link %>" rel="next"> <%= post.nextPost.title %></a></div>
+		<div class="wow bounceInRight nav-next3"><a href="<%= post.nextPost.link %>" rel="next"> <%= post.nextPost.title %></a></div>
 		<% } %>
 		</div>
 	</nav>
+	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
+	<div class="author-avatar pull-left"><img src="<%= themeConfig.domain %>/images/avatar.png" ></div>
+ <% if (site.customConfig.gxmz) { %>
+	<div class="author-description"><div class="author-title"><div class="author-link" rel="author"><%= site.customConfig.gxmz %></div></div>
+<% } %>
+<% if (site.customConfig.gxqm) { %>
+	<p class="author-bio"><%= site.customConfig.gxqm %><a href="https://miracol.cn/post/Gx18-2uoM/">More..</a></p></div></div>
+	<% } %>
 		</div>
 		
  
 		
 </article>
 
-<div id="marlin_lite_about_widget-2" class="widget marlin_lite_about_widget">
-			<h4 class="widget-title">评论</h4>	
+<div id="marlin_lite_about_widget-2" class="wow bounceInUp widget marlin_lite_about_widget" data-wow-delay="0.1s">
+		
 
-			 <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
-          <% if (commentSetting.commentPlatform === 'gitalk') { %>
-            <%- include('./_blocks/gitalk') %>
-          <% } %>
-          <% if (commentSetting.commentPlatform === 'disqus') { %>
-            <%- include('./_blocks/disqus') %>
-          <% } %>
-        <% } %>
+		<%- include('./_blocks/talk') %>
    
   
  

@@ -1,5 +1,5 @@
 		
-		<header id="header ddq" class="site-header" 
+		<header id="header" class="site-header" 
 		<% if (themeConfig.showFeatureImage && post.feature) { %>
 		style="background-image:url(<%= post.feature %>)"
 		<% } %>
@@ -20,10 +20,10 @@
 						</div>
 					</div><!-- /nav-toggle -->
 					<div class="clear"></div>
-					<ul id="" class="vtmenu">
+					<ul id="" class="dove">
 		 <% menus.forEach(function(menu) { %>
      			
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12">
+<li>
 	 
 	<a  href="<%= menu.link %>"> <%= menu.name %></a></li>
 	
