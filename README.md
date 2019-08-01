@@ -15,6 +15,8 @@
 1. 配置教程：[点击进入](https://deserts.io/diy-a-comment-system/)
 2. 评论邮箱美化教程（也是目前我用的样式）：[点击进入](https://immmmm.com/valine-diy)
 3. 表情包下载地址：[点击下载](http://cloud.panjunwen.com/alu.zip) 放在Gridea\output\文件中
+4. 若不想实名认证可以使用国际版[Leancloud](https://console.leancloud.app)
+5. 使用国际版请在 存储 —— 创建 Class —— 创建名为：Comment 即可
 
 ## 更新
 
