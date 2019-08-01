@@ -2,6 +2,13 @@
 示例：[Miracol.cn](https://miracol.cn/)
 </br>
 请不要修改底部版权链接！谢谢！
+</br>
+友情链接新创建一片文章输入以下代码即可
+```
+<ul class="links">
+<li><a href="网站地址" target="_blank" rel="noopener noreferrer">网站名称</a></li>
+</ul>
+```
 
 ## 已有功能
 1. 图片灯箱效果
