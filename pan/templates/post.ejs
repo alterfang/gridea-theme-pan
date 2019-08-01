@@ -64,7 +64,14 @@
 
 <div id="marlin_lite_about_widget-2" class="wow bounceInUp widget marlin_lite_about_widget" data-wow-delay="0.1s">
 		
-
+        <% if (typeof commentSetting !== 'undefined' && commentSetting.showComment) { %>
+          <% if (commentSetting.commentPlatform === 'gitalk') { %>
+            <%- include('./_blocks/gitalk') %>
+          <% } %>
+          <% if (commentSetting.commentPlatform === 'disqus') { %>
+            <%- include('./_blocks/disqus') %>
+          <% } %>
+        <% } %>
 		<%- include('./_blocks/talk') %>
    
   

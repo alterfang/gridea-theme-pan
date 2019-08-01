@@ -9,7 +9,13 @@ const generateOverride = (params = {}) => {
     `
   }
 
-  
+  if (typeof params.valine !== 'undefined' && !params.valine) {
+    result += `
+    .valine {
+        display: none;
+      }
+    `
+  }
 
 
   console.log('result', result)

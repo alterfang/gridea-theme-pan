@@ -45,6 +45,14 @@
       "note": "请输入24时"
     },
     {
+      "name": "valine",
+      "label": "是否需要Valine评论",
+      "group": "评论板块",
+      "value": true,
+      "type": "switch",
+      "note": "启动时请确保关闭了gitalk和disqus"
+    },
+    {
       "name": "yx",
       "label": "博主邮箱",
       "group": "评论板块",
