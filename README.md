@@ -2,6 +2,13 @@
 示例：[Miracol.cn](https://miracol.cn/)
 </br>
 请不要修改底部版权链接！谢谢！
+</br>
+友情链接新创建一篇文章输入以下代码即可
+```
+<ul class="links">
+<li><a href="网站地址" target="_blank" rel="noopener noreferrer">网站名称</a></li>
+</ul>
+```
 
 ## 已有功能
 1. 图片灯箱效果
@@ -15,6 +22,8 @@
 1. 配置教程：[点击进入](https://deserts.io/diy-a-comment-system/)
 2. 评论邮箱美化教程（也是目前我用的样式）：[点击进入](https://immmmm.com/valine-diy)
 3. 表情包下载地址：[点击下载](http://cloud.panjunwen.com/alu.zip) 放在Gridea\output\文件中
+4. 若不想实名认证可以使用国际版[Leancloud](https://console.leancloud.app)
+5. 使用国际版请在 存储 —— 创建 Class —— 创建名为：Comment 即可
 
 ## 更新
 
