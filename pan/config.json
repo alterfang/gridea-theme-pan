@@ -1,8 +1,8 @@
 {
   "name": "Pan",
-  "version": "2.0",
+  "version": "2.1",
   "author": "文中君",
-  "repository": "",
+  "repository": "https://github.com/alterfang/gridea-theme-pan",
   "customConfig": [
     {
       "name": "indeximg",
