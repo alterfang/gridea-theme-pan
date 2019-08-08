@@ -6,7 +6,35 @@
 
 <link rel="stylesheet" href="<%= themeConfig.domain %>/styles/main.css">
 <script type="text/javascript">
-function getCSS(){datetoday=new Date();timenow=datetoday.getTime();datetoday.setTime(timenow);thehour=datetoday.getHours();<%if(site.customConfig.haks){%>if(thehour<<%=site.customConfig.haks%>)<%}%>display="<%= themeConfig.domain %>/media/scripts/dark.css";<%if(site.customConfig.hajs){%>else if(thehour><%=site.customConfig.hajs%>)<%}%>display="<%= themeConfig.domain %>/media/scripts/dark.css";var css='<';css+='link rel="stylesheet" href='+display+' \/';css+='>';document.write(css)}
+function getCSS()
+{
+        datetoday = new Date();
+        timenow=datetoday.getTime();
+        datetoday.setTime(timenow);
+        thehour = datetoday.getHours();
+<% if (site.customConfig.haks) { %>
+        if (thehour<<%= site.customConfig.haks %>)
+<% } %>
+            display = "<%= themeConfig.domain %>/media/css/night.css";
+<% if (site.customConfig.hajs) { %>
+       else if (thehour><%= site.customConfig.hajs %>)
+<% } %>
+            display = "<%= themeConfig.domain %>/media/css/night.css";   
+<% if (site.customConfig.haks) { %>
+        else if (thehour><%= site.customConfig.haks %>)
+     <% } %>      
+            display = "<%= themeConfig.domain %>/media/css/day.css";
+<% if (site.customConfig.hajs) { %>
+        else if (thehour<<%= site.customConfig.hajs %>)
+<% } %>
+            display = "<%= themeConfig.domain %>/media/css/day.css";
+      
+
+var css = '<';
+        css+='link rel="stylesheet" href='+display+' \/';
+        css+='>';
+        document.write(css);
+}
 </script>
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
