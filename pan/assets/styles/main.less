@@ -215,6 +215,34 @@ header a {}
     color: #337ab7;
 
 }
+    // 表格
+
+    table {
+        width: 100%;
+        max-width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-bottom: 1.5em;
+        font-size: 0.96em;
+        box-sizing: border-box;
+        border-width: 1;
+      }
+      .song th, .song td {
+        text-align: left;
+        padding: 8px;
+        border: 1px solid #efefef;
+    }
+    .song tr:nth-child(even) {
+        background-color: #F7FAFC;
+    }
+    // code
+    .song code, .song tt {
+        color: #888888;
+        font-size: 0.96em;
+        padding: 1px 2px;
+        font-family: Menlo,Monaco,Consolas,Courier New,monospace;
+        word-wrap: break-word;
+    }
 
 // 文章
 #content article {
@@ -986,7 +1014,8 @@ margin-left: auto;}
 	}
 	#content article {
 		margin-bottom: 25px;
-	}
+    }
+
 /* End @media ================================================================== */}
 
 /* Maximum width of 640 pixels ----------- */
