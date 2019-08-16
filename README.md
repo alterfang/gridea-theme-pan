@@ -17,7 +17,7 @@
 4. 谷歌字体的logo
 5. 黑暗模式
 6. 代码高亮
-7. 宋京鸽我喜欢你
+
 ## Valine配置及评论邮箱教程
 1. 配置教程：[点击进入](https://deserts.io/diy-a-comment-system/)
 2. 评论邮箱美化教程（也是目前我用的样式）：[点击进入](https://immmmm.com/valine-diy)
