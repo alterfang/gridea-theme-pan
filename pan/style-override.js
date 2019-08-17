@@ -4,7 +4,7 @@ const generateOverride = (params = {}) => {
   
   if (params.indeximg && params.indeximg !== '') {
     result += `
-   header {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))url(${params.indeximg});}
+    header {background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(${params.indeximg});}
     
     `
   }

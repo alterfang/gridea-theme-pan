@@ -79,6 +79,8 @@ article a:hover,
   .author-bio {
     color: #7e7e7e;
   }
+
+  .mark,mark{padding:.2em;background-color:#fcf8e3}
   .hljs {
     display: block;
     padding: 0.5em;
@@ -158,7 +160,7 @@ article a:hover,
   .hljs-variable,
   .hljs-params,
   .hljs-class .hljs-title {
-    color: #f8f8f2;
+    color: #888888;
   }
   .hljs-string,
   .css .hljs-id,
