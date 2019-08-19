@@ -18,7 +18,7 @@
 							<div class="bar"></div>
 							<div class="bar"></div>
 						</div>
-					</div><!-- /nav-toggle -->
+					</div>
 					<div class="clear"></div>
 					<ul id="" class="dove">
 		 <% menus.forEach(function(menu) { %>
@@ -33,11 +33,11 @@
 </li>		
 		
 </ul>				</div>
-			</nav><!-- #navigation -->
+			</nav>
 						<div class="jingge">
 <% ['rss', 'twitter', 'github', 'zhihu', 'facebook','linkedin','telegram','douban','instagram','qq','weibo','youtube'].forEach((item) => { %>
 <% if (site.customConfig[item]) { %>			
 <a  href="<%= site.customConfig[item] %>" target="_blank" ><i class="iconfont icon-<%= item %>"></i></a>
  <% } %>
     <% }) %>
-        </header><!-- #masthead -->
+        </header>
