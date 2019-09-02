@@ -368,3 +368,7 @@ blockquote cite {
   color: #888888;
   font-size: 0.9em;
 }
+
+.song tr:nth-child(even) {
+  background-color: #292A2D;
+}
