@@ -328,7 +328,7 @@ article .entry-title > a, .slide-content .entry-title > a {
 .bmdb-title {
   color: #bcbcbc;
 }
-.view-img{background:#333;background:rgba(0, 0, 0, 0.9);}
+.view-img{background:#333 !important;background:rgba(0, 0, 0, 0.9) !important;}
 .vt-post-tags a {
   color: #bcbcbc;
 }
