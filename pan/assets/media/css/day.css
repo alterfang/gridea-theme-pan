@@ -326,7 +326,7 @@ background: #fff;
   .bmdb-title {
     color: #333;
   }
-  .view-img{background:#fff;background:rgba(255,255,255,.92);}
+  .view-img{background:#fff !important;background:rgba(255,255,255,.92) !important;}
 
   .tagcloud a,
 .vt-post-tags a {
