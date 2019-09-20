@@ -1,5 +1,5 @@
 # gridea-theme-pan
-示例：[Miracol.cn](https://miracol.cn/)
+示例：[Shanbu.fun](https://shanbu.fun/)
 </br>
 请不要修改底部版权链接！谢谢！
 </br>
