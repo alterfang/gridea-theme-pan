@@ -3,8 +3,7 @@
   "version": "2.3",
   "author": "文中君",
   "repository": "https://github.com/alterfang/gridea-theme-pan",
-  "customConfig": [
-    {
+  "customConfig": [{
       "name": "indeximg",
       "label": "首页图片",
       "group": "首页",
@@ -30,7 +29,7 @@
     },
     {
       "name": "haks",
-      "label": "自动开启黑暗模式时间",
+      "label": "自动关闭黑暗模式时间",
       "group": "黑暗模式",
       "value": "",
       "type": "input",
@@ -38,7 +37,7 @@
     },
     {
       "name": "hajs",
-      "label": "自动关闭黑暗模式时间",
+      "label": "自动开启黑暗模式时间",
       "group": "黑暗模式",
       "value": "",
       "type": "input",
@@ -60,142 +59,142 @@
       "type": "input",
       "note": "请输入博主邮箱"
     },
-      {
-        "name": "bq",
-        "label": "表情包地址",
-        "group": "评论板块",
-        "value": "",
-        "type": "input",
-        "note": "XXXXXXXXXX/alu"
-      },
     {
-        "name": "hy",
-        "label": "叙述",
-        "group": "评论板块",
-        "value": "",
-        "type": "input",
-        "note": "欢迎评论"
-      },
-      {
-        "name": "id",
-        "label": "ID",
-        "group": "评论板块",
-        "value": "",
-        "type": "input",
-        "note": "xxxxxxxxx"
-      },
-      {
-        "name": "key",
-        "label": "Key",
-        "group": "评论板块",
-        "value": "",
-        "type": "input",
-        "note": "xxxxxxxxx"
-      },
-      {
-        "name": "rss",
-        "label": "RSS",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "twitter",
-        "label": "Twitter",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "github",
-        "label": "Github",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "zhihu",
-        "label": "知乎",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "facebook",
-        "label": "Facebook",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "linkedin",
-        "label": "Linked in",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "telegram",
-        "label": "telegram",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "douban",
-        "label": "豆瓣",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "instagram",
-        "label": "Instagram",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "qq",
-        "label": "QQ",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "weibo",
-        "label": "微博",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
-      {
-        "name": "youtube",
-        "label": "Youtube",
-        "group": "社交",
-        "value": "",
-        "type": "input",
-        "note": "链接地址"
-      },
+      "name": "bq",
+      "label": "表情包地址",
+      "group": "评论板块",
+      "value": "",
+      "type": "input",
+      "note": "XXXXXXXXXX/alu"
+    },
     {
-        "name": "ga",
-        "label": "跟踪 ID",
-        "group": "谷歌统计",
-        "value": "",
-        "type": "input",
-        "note": "UA-xxxxxxxxx-x"
-      }
+      "name": "hy",
+      "label": "叙述",
+      "group": "评论板块",
+      "value": "",
+      "type": "input",
+      "note": "欢迎评论"
+    },
+    {
+      "name": "id",
+      "label": "ID",
+      "group": "评论板块",
+      "value": "",
+      "type": "input",
+      "note": "xxxxxxxxx"
+    },
+    {
+      "name": "key",
+      "label": "Key",
+      "group": "评论板块",
+      "value": "",
+      "type": "input",
+      "note": "xxxxxxxxx"
+    },
+    {
+      "name": "rss",
+      "label": "RSS",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "twitter",
+      "label": "Twitter",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "github",
+      "label": "Github",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "zhihu",
+      "label": "知乎",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "facebook",
+      "label": "Facebook",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "linkedin",
+      "label": "Linked in",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "telegram",
+      "label": "telegram",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "douban",
+      "label": "豆瓣",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "instagram",
+      "label": "Instagram",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "qq",
+      "label": "QQ",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "weibo",
+      "label": "微博",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "youtube",
+      "label": "Youtube",
+      "group": "社交",
+      "value": "",
+      "type": "input",
+      "note": "链接地址"
+    },
+    {
+      "name": "ga",
+      "label": "跟踪 ID",
+      "group": "谷歌统计",
+      "value": "",
+      "type": "input",
+      "note": "UA-xxxxxxxxx-x"
+    }
 
-]
-}   
+  ]
+}
