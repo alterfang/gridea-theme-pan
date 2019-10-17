@@ -372,3 +372,8 @@ blockquote cite {
 .song tr:nth-child(even) {
   background-color: #292A2D;
 }
+
+ul.links li a {
+  background-color: #333333;
+  border: 1px solid #999999;
+}
