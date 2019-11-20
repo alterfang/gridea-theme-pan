@@ -1,6 +1,5 @@
 # gridea-theme-pan
-示例：[Shanbu.fun](https://shanbu.fun/)
-</br>
+
 感谢chiperman修改：[Chiperman.github.io](https://chiperman.github.io)
 </br>
 请不要修改底部版权链接！谢谢！
