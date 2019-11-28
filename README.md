@@ -1,5 +1,7 @@
 # gridea-theme-pan
 
+# 新版本移动至 https://github.com/shanbufun/gridea-theme-pan
+
 感谢chiperman修改：[Chiperman.github.io](https://chiperman.github.io)
 </br>
 请不要修改底部版权链接！谢谢！
